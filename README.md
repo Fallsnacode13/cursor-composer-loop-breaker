@@ -29,10 +29,3 @@ Get the background daemon to secure your autonomous Cursor development sessions:
 
 ---
 
-## Installation & Workflow Setup
-
-1. Click the download link above to fetch the latest native build tailored for your OS.
-2. Run the installer or reference the core execution daemon inside your global `.cursorrules` file.
-3. Start your project environment normally:
-```bash
-cursor-break --watch
